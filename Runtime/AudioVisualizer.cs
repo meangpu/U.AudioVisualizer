@@ -1,3 +1,4 @@
+#if !UNITY_WEBGL
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
@@ -85,3 +86,4 @@ namespace Meangpu.Audio
         }
     }
 }
+#endif
